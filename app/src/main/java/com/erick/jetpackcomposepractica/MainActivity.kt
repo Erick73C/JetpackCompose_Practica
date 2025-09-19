@@ -1,6 +1,5 @@
 package com.erick.jetpackcomposepractica
 
-import WaterCounter
 import WellnessScreen
 import android.os.Bundle
 import android.view.Surface
@@ -37,8 +36,4 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun WaterCounterPreview() {
-    WaterCounter()
-}
+
