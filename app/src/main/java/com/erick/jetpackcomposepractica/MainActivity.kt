@@ -1,5 +1,6 @@
 package com.erick.jetpackcomposepractica
 
+import WaterCounter
 import WellnessScreen
 import android.os.Bundle
 import android.view.Surface
@@ -18,9 +19,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.erick.jetpackcomposepractica.ui.theme.JetpackComposePracticaTheme
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        //enableEdgeToEdge()
         setContent {
             JetpackComposePracticaTheme {
                 // A surface container using the 'background' color from the theme
@@ -33,4 +35,10 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun WaterCounterPreview() {
+    WaterCounter()
 }

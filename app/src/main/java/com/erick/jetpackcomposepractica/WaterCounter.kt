@@ -6,7 +6,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.material3.Button
 import androidx.compose.foundation.layout.Column
 import androidx.compose.ui.modifier.modifierLocalConsumer
-
+//@preview
 @Composable
 fun WaterCounter(modifier: Modifier = Modifier) {
 
